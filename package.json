@@ -1,0 +1,25 @@
+{
+    "name": "8051-assembly",
+    "displayName": "8051 Assembly",
+    "description": "8051 assemlby language support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "8051",
+            "aliases": ["8051 Assembly", "8051"],
+            "extensions": [".asm .a51"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "8051",
+            "scopeName": "source.asm.8051",
+            "path": "./syntaxes/8051.tmLanguage.json"
+        }]
+    }
+}
