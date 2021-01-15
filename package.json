@@ -3,6 +3,8 @@
     "displayName": "8051 Assembly",
     "description": "8051 assemlby language support",
     "version": "0.0.1",
+    "publisher": "TecCheck",
+    "repository": "https://github.com/TecCheck/vscode-8051-assembly",
     "engines": {
         "vscode": "^1.52.0"
     },
