@@ -15,7 +15,7 @@
         "languages": [{
             "id": "8051",
             "aliases": ["8051 Assembly", "8051"],
-            "extensions": [".asm .a51"],
+            "extensions": [".asm", ".a51"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
