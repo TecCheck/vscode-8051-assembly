@@ -55,7 +55,7 @@
 			"name": "keyword.mnemonic.data"
 		},
 		{
-			"match": "(?i)\\b(equ|macro|endm?)\\b",
+			"match": "(?i)\\b(equ|macro|endm?|org)\\b",
 			"name": "support.function"
 		}
 	],
