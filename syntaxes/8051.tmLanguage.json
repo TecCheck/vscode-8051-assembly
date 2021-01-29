@@ -19,6 +19,10 @@
 			"name": "constant.numeric.dec"
 		},
 		{
+			"match": "#?\\b[0-7]+[QqOo]?\\b",
+			"name": "constant.numeric.oct"
+		},
+		{
 			"match": "@[rR][01]|[rR][0-7].[0-7]|[pP][0-1].[0-7]|[rR][0-7]|[pP][0-1]",
 			"name": "variable.parameter"
 		},
