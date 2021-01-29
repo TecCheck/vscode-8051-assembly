@@ -61,6 +61,10 @@
 		{
 			"match": "(?i)\\b(equ|macro|endm?|org)\\b",
 			"name": "support.function"
+		},
+		{
+			"match": "(?i)\\$include\\b",
+			"name": "support.function"
 		}
 	],
 	"scopeName": "source.asm.8051"
