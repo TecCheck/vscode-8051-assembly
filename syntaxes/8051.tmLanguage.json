@@ -15,7 +15,7 @@
 			"name": "constant.numeric.bin"
 		},
 		{
-			"match": "#?\\b[0-9]+\\b",
+			"match": "#?\\b[0-9]+[dD]?\\b",
 			"name": "constant.numeric.dec"
 		},
 		{
