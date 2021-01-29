@@ -7,11 +7,11 @@
 			"name": "comment.line"
 		},
 		{
-			"match": "#?[0-9a-fA-F]+[hH]",
+			"match": "#?\\b[0-9a-fA-F]+[hH]\\b",
 			"name": "constant.numeric.hex"
 		},
 		{
-			"match": "#?[01]+[bB]",
+			"match": "#?\\b[01]+[bB]\\b",
 			"name": "constant.numeric.bin"
 		},
 		{
