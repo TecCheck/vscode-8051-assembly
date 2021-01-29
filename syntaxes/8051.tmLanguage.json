@@ -35,6 +35,10 @@
 			"name": "entity.name.section"
 		},
 		{
+			"match": "\\$[^i]",
+			"name": "entity.name.section"
+		},
+		{
 			"match": "(?i)\\b(addc?|subb|inc|dec|mul|div|da|clr|cpl|r[lr]c?|swap)\\b",
 			"name": "keyword.mnemonic.math"
 		},
