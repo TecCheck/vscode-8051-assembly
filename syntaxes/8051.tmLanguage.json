@@ -23,11 +23,19 @@
 			"name": "constant.numeric.oct"
 		},
 		{
-			"match": "@[rR][01]|[rR][0-7].[0-7]|[pP][0-1].[0-7]|[rR][0-7]|[pP][0-1]",
+			"match": "(?i)\\s@[r][01]\\b",
+			"name": "variable.parameter"
+		},
+		{
+			"match": "(?i)\\b[rp][0-7](.[0-7])?\\b",
 			"name": "variable.parameter"
 		},
 		{
 			"match": "(?i)\\b(a|b|c|\\@r0|\\@r1|sp|dp|psw(.[0-7])?|p|ud|ov|rs0|rs1|f0|ac|dptr|\\@dptr|pc)\\b",
+			"name": "variable.parameter"
+		},
+		{
+			"match": "(?i)\\b(P0|SP|DPL|DPH|PCON|TCON|TMOD|TL0|TL1|TH0|TH1|P1|SCON|SBUF|P2|IE|P3|IP|PSW|ACC|B|IT0|IE0|IT1|IE1|TR0|TF0|TR1|TF1|RI|TI|RB8|TB8|REN|SM2|SM1|SM0|EX0|ET0|EX1|ET1|ES|EA|RXD|TXD|INT0|INT1|T0|T1|WR|RD|PX0|PT0|PX1|PT1|PS|P|OV|RS0|RS1|F0|AC|CY|RESET|EXTI0|TIMER0|EXTI1|TIMER1|SINT)\\b",
 			"name": "variable.parameter"
 		},
 		{
