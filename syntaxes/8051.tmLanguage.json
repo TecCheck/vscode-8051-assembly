@@ -43,7 +43,7 @@
 			"name": "entity.name.section"
 		},
 		{
-			"match": "^\\s*\\.?\\w+:\\s*(?=$|:)",
+			"match": "^\\s*\\.?\\w+:\\s*(?=|:)",
 			"name": "entity.name.section"
 		},
 		{
